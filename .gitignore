@@ -28,3 +28,7 @@ fp-info-cache
 
 # Gerber directory
 gerbers/
+
+# Bom files
+bom.ini
+bom/
