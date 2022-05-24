@@ -32,3 +32,9 @@ gerbers/
 # Bom files
 bom.ini
 bom/
+
+# Protocol folder
+protocol/
+
+# Temp reamdme.md file
+0README.html
