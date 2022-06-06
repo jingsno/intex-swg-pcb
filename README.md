@@ -32,6 +32,6 @@ Link to [PDF Schematic](docs/intex-swg-pcb.pdf)
 | Fuse 3A / 250V | https://www.aliexpress.com/item/32702176964.html | 
 | 2-pin screw terminal | https://www.aliexpress.com/item/1005002971443405.html  | 
 | 3-pin screw terminal | https://www.aliexpress.com/item/1005002971443405.html  | 
-| 3x 3-pin header with jumper (or wire) | https://www.aliexpress.com/item/32873263301.html  | 
+| 2x 3-pin header with jumper (or wire) | https://www.aliexpress.com/item/32873263301.html  | 
 
 
