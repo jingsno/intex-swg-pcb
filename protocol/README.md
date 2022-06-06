@@ -1,4 +1,4 @@
-# Intex SWG (without TM1650 LED6 driver) protocol
+# Intex SWG (without TM1650 LED driver) protocol
 
 Some Intex SWG models do not contain the TM1650 LED driver chip
 This document contians the protocol for the communication between the Main/Displayboard for these models.
