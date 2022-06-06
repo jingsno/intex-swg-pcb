@@ -27,6 +27,9 @@ void setup() {
   Serial.println(F("Mainboard -> Display board: r=rise f=falling"));
   Serial.println(F("Display -> Main board: R=rise F=falling"));
   Serial.println(F("NOTE: ONLY SHOWS EDGE TRANSITIONS, NO DECODE! "));
+
+  digitalWrite(TO_DISP, HIGH); // sets the TO_DISP signal to HIGH
+  digitalWrite(TO_MAIN, HIGH); // sets the TO_MAIN signal to HIGH
 }
 
 void loop() {

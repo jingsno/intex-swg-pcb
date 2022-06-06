@@ -47,7 +47,9 @@ void setup() {
   Serial.println(F("FROM_DISP (Pin 17) ISR1 function attached."));
   pinMode(TO_MAIN,OUTPUT); // Send data to main board
   Serial.println(F("TO_MAIN (Pin 19) Configured for main board output."));
-  
+
+  digitalWrite(TO_DISP, HIGH); // sets the TO_DISP signal to HIGH
+  digitalWrite(TO_MAIN, HIGH); // sets the TO_MAIN signal to HIGH
 }
 
 void loop() {

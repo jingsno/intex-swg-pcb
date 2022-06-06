@@ -36,5 +36,8 @@ bom/
 # Protocol folder
 # protocol/
 
+# Development folder
+*_Development/
+
 # Temp reamdme.md file
 0README.html
