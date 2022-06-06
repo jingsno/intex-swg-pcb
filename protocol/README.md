@@ -157,19 +157,19 @@ The display boards sends all "Release Button" to the main board, 8 bits of "one"
 #### Note2: The Code samples below, basically looks for a falling pulse edge, and then measures the time before a falling edge occurs again to detect a "0" or "1"
 
 The following code sample allows the ESP32 to sit "in the middle" between the display and main board. I does not decode the traffic, but prints all rising/falling transitions of the received signals, on the serial bus.  
-[Demo_ESP32_Middle](Code\Demo_ESP32_Middle\Demo_ESP32_Middle.ino)
+[Demo_ESP32_Middle](Code/Demo_ESP32_Middle/Demo_ESP32_Middle.ino)
 
 The following code sample allows the ESP32 to send different LED patterns to the display board.  
-[Demo_ESP32_Display](Code\Demo_ESP32_Display\Demo_ESP32_Display.ino)
+[Demo_ESP32_Display](Code/Demo_ESP32_Display/Demo_ESP32_Display.ino)
 
 The following code sample allows the ESP32 to DEMO the following sequernce: Push the Power button, Push the Lock/Unlock Key, Push the Timer button 6-times, Push the Lock/Unlock Key, and at last Push the power Button. Repeats the sequence after 10 Seconds  (Includes some Demo_ESP32_Middle code to allow the SWG to work)  
-[Demo_ESP32_Buttons](Code\Demo_ESP32_Buttons\Demo_ESP32_Buttons.ino)
+[Demo_ESP32_Buttons](Code/Demo_ESP32_Buttons/Demo_ESP32_Buttons.ino)
 
 The following code sample allows the ESP32 to read, and print on the serial bus, the buttons pressed on the display board (Includes some Demo_ESP32_Middle code to allow the SWG to work)  
-[Demo_ESP32_ReadButtons](Code\Demo_ESP32_ReadButtons\Demo_ESP32_Buttons.ino)
+[Demo_ESP32_ReadButtons](Code/Demo_ESP32_ReadButtons/Demo_ESP32_Buttons.ino)
 
 The following code sample allows the ESP32 to read, and print on the serial bus, the information sendt from the main board to the display board (Includes some Demo_ESP32_Middle code to allow the SWG to work)  
-[Demo_ESP32_ReadDisplay](Code\Demo_ESP32_ReadDisplay\Demo_ESP32_ReadDisplay.ino)
+[Demo_ESP32_ReadDisplay](Code/Demo_ESP32_ReadDisplay/Demo_ESP32_ReadDisplay.ino)
 
 The following code sample uses code from all the above samples, to decode and display all data between the main board and the displayboard  
-[Demo_ESP32](Code\Demo_ESP32\Demo_ESP32.ino)
+[Demo_ESP32](Code/Demo_ESP32/Demo_ESP32.ino)
