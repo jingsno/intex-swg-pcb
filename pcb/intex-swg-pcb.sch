@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Intex SWG with jumpers"
-Date "2022-05-22"
-Rev "3.0"
+Date "2022-06-06"
+Rev "3.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -73,10 +73,6 @@ Wire Wire Line
 Connection ~ 6350 5050
 Wire Wire Line
 	10150 4500 6150 4500
-Wire Wire Line
-	5300 2100 5300 4300
-Wire Wire Line
-	5300 2100 4700 2100
 Wire Wire Line
 	4700 3000 5900 3000
 Wire Wire Line
@@ -198,7 +194,6 @@ $EndComp
 Connection ~ 2750 5050
 Wire Wire Line
 	1100 3400 1100 3300
-NoConn ~ 4700 2200
 NoConn ~ 4700 2300
 NoConn ~ 4700 2400
 NoConn ~ 4700 2500
@@ -372,8 +367,6 @@ F 3 "~" H 1800 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 1800 1800 1550
-Text Label 4800 2100 0    50   ~ 0
-RELAY
 Wire Wire Line
 	3200 2200 2750 2200
 Wire Wire Line
@@ -495,4 +488,11 @@ Wire Wire Line
 Connection ~ 8400 3900
 Wire Wire Line
 	8400 3900 8400 5050
+Text Label 4800 2200 0    50   ~ 0
+RELAY
+Wire Wire Line
+	5300 2200 4700 2200
+Wire Wire Line
+	5300 2200 5300 4300
+NoConn ~ 4700 2100
 $EndSCHEMATC
