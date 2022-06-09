@@ -36,6 +36,9 @@ bom/
 # Protocol folder
 # protocol/
 
+# Code folder
+code/
+
 # Development folder
 *_Development/
 
