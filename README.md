@@ -11,6 +11,8 @@ This PCB is suitable for both the TM1650 and the PIC16F88 version of the display
 Software for the "non TM1650" (18 pin) version of the display board is under development.
 (Current status of non released development version of the software, allows for fullt control of the Intex SWG from a web interface.)
 
+Known models without the TM1650 chip:
+* Intex Krystal Clear salt water system® ECO 6220 / CG-26670 (7-led/5 buttons), Max 56800 Liters
 
 *PCB for Intex SWG automation*
 ![](docs/poster.png)
